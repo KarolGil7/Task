@@ -13,6 +13,6 @@
                 aria-current="page">Tabela</a>
         </li>
         <li class="nav-item"><a href="{{ route('post.show') }}"
-                class="nav-link  {{ Route::current()->getName() == 'post.show' ? 'active' : '' }}"">Wykres</a></li>
+                class="nav-link  {{ Route::current()->getName() == 'post.show' ? 'active' : '' }}">Wykres</a></li>
     </ul>
 </header>
